@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": ["ESNext", "DOM"],
+      "useDefineForClassFields": true,
+      "allowJs": false,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "paths": {
+        "vcpe-ui": ["src/index.ts"],
+        "vcpe-ui/icons": ["src/icons/index.ts"],
+        "vcpe-ui/hooks": ["src/hooks/index.ts"]
+      },
+      "importHelpers": true
+    },
+    "include": ["src"],
+    "ts-node": {
+      "esm": true
+    }
+  }
