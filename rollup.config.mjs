@@ -49,7 +49,7 @@ export default {
       extract: true,
       autoModules: false,
       modules: {
-        generateScopedName: 'scc-ui-[folder]-[local]-[contenthash:base64:5]',
+        generateScopedName: 'vcpe-ui-[folder]-[local]-[contenthash:base64:5]',
       },
       onExtract(data) {
         fs.writeFileSync(path.resolve('./index.css'), data().code);
