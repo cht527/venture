@@ -1,0 +1,3 @@
+*.snap linguist-generated
+src/icons/** linguist-generated
+docs/icons/constants.ts linguist-generated
