@@ -31,7 +31,7 @@ Venture 是一个基于 React.js 技术的 Web 前端组件库集合。它除了
 ```
 npm install @venture/component
 ```
-公共的颜色变量以及全量样式，通过 `ventrue/index.css` 提供。
+公共的颜色变量以及全量样式，通过 `@ventrue/index.css` 提供。
 
 ### demo
 ```
