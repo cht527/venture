@@ -56,4 +56,4 @@ pnpm run start
 ```
 
 ## 贡献
-我们非常欢迎对VCPE-UI的贡献。如果您发现问题或有改进建议，请在GitHub上提交issue或发起pull request。
+我们非常欢迎对Venture的贡献。如果您发现问题或有改进建议，请在GitHub上提交issue或发起pull request。
