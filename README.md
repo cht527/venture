@@ -1,81 +1,59 @@
-# Turborepo starter
+# Venture
 
-This is an official starter Turborepo.
+## 项目背景
+“加快数字化发展，大力推进产业数字化转型”是“十四五”规划中的重点，近年来，国内的私募基金已陆续展开数字化转型工作，搭建投资全生命周期的数字化平台是实现转型的必要途径，对投资业务赋能和日常工作提效具有重要意义。该项目是我们在公司内部开发数字化平台过程中，经过全面而深刻的业务理解和反复技术实践后所沉淀的成果。
+## 项目介绍
 
-## Using this example
+Venture 是一个基于 React.js 技术的 Web 前端组件库集合。它除了包含一套企业级标准化中后台组件库，还针对私募股权投资中的“募、投、管、退”环节，通过特定的业务逻辑抽象和交互设计，实现了一套通用、高效的业务组件。经过实际应用验证，该解决方案运行稳定、高效。我们相信 Venture 将成为私募基金搭建数字化平台过程中 Web 开发人员的得力助手。
 
-Run the following command:
+## 项目特点
+1. 强调在私募基金投资领域的通用性，充分考虑私募基金行业的特有业务需求，提供了专门针对私募投资流程的组件，如项目投资轮次、DealTeam成员管理
 
-```sh
-npx create-turbo@latest
+
+2. 高度可定制和扩展，方便根据不同项目需求进行个性化定制
+
+3. 良好的文档和示例，帮助开发者快速上手和理解组件的使用方式
+
+4. 作为"产品-设计-研发”三位一体的“标准化模块语言", 搭建高效协作沟通的桥梁
+
+5. 最大化 Web 开发人效，节约项目组的研发资源
+
+
+## TODO
+
+- [ ] 官网 dumi
+- [ ] config
+
+
+
+
+## 安装和使用
+```
+npm install @venture/component
+```
+公共的颜色变量以及全量样式，通过 `@ventrue/index.css` 提供。
+
+### demo
+```
+import '@venture/index.css';
+import { Button } from '@venture/ui';
+
+
+export function IndexPage() {
+  return (
+    <>
+      <Button>按钮</Button>
+    </>
+  );
+}
 ```
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+## 开发
+```shell
+npm i -g pnpm
+pnpm i
+pnpm run start
 ```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## 贡献
+我们非常欢迎对VCPE-UI的贡献。如果您发现问题或有改进建议，请在GitHub上提交issue或发起pull request。
