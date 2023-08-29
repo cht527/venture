@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "paths": {
+    "vcpe-ui": ["src/index.ts"],
+    "vcpe-ui/icons": ["src/icons/index.ts"],
+    "vcpe-ui/hooks": ["src/hooks/index.ts"]
+  },
+}
