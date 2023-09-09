@@ -1,4 +1,5 @@
 {
+  "name": "venture",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -17,6 +18,5 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "venture"
+  "packageManager": "pnpm@8.6.10"
 }
